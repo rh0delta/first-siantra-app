@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20150718170132) do
     t.string   "title"
     t.string   "author"
     t.string   "content"
+    t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "url"
   end
 
 end
